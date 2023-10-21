@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="register_your_account">Register Your Account</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_an_account">Already have an Account</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_gender">Enter Gender</string>
+</resources>
