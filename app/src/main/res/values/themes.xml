@@ -11,6 +11,9 @@
             @android:color/transparent
         </item>
 
+        <item name="android:colorPrimary">
+            @color/black
+        </item>
         <!-- Optional: set for a light status bar with dark content. -->
         <item name="android:windowLightStatusBar">
             true

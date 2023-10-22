@@ -9,4 +9,9 @@
     <string name="already_have_an_account">Already have an Account</string>
     <string name="enter_age">Enter Age</string>
     <string name="enter_gender">Enter Gender</string>
+    <string name="welcome">Welcome</string>
+    <string name="the_world_of_infinite_knowledge_amp_unending_discovery_n_discover_learn_amp_transform_n_your_world_through_lifelong_learning">
+        <![CDATA[The World of Infinite Knowledge & Unending Discovery. \n Discover, Learn, & Transform \n Your World Through Lifelong Learning.]]></string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="login_small">Login</string>
 </resources>
