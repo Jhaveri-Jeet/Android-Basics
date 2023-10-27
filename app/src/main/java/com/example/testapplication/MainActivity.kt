@@ -12,18 +12,30 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(R.layout.activity_main)
 
-        val intentRegister = Intent(this, RegisterActivity::class.java)
+        val prefs = getSharedPreferences("my_prefs", MODE_PRIVATE)
+        val userId = prefs.getInt("user_id", 0)
         val intentLogin = Intent(this, LoginActivity::class.java)
 
+        if(userId == 0){
+            startActivity(intentLogin)
+            finish()
+        }
+
+        val intentRegister = Intent(this, RegisterActivity::class.java)
+
         val btnRegister = findViewById<Button>(R.id.btnRegister)
-        val btnLogin = findViewById<Button>(R.id.btnLogin)
+
+        findViewById<Button>(R.id.btnLogOut).setOnClickListener{
+            val editor = prefs.edit()
+            editor.remove("user_id")
+            editor.apply()
+
+            startActivity(intentLogin)
+        }
 
         btnRegister.setOnClickListener {
             startActivity(intentRegister)
         }
 
-        btnLogin.setOnClickListener{
-            startActivity(intentLogin)
-        }
     }
 }

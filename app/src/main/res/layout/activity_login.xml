@@ -45,26 +45,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="80sp"
                     android:inputType="text"
-                    android:text="Name"
+                    android:hint="Name"
                     android:ems="10"
                     android:layout_marginHorizontal="20sp"
-                    android:id="@+id/name"/>
+                    android:id="@+id/name"
+            />
             <EditText
                     android:layout_width="match_parent"
                     android:layout_height="80sp"
                     android:inputType="text"
-                    android:text="Password"
+                    android:hint="Password"
                     android:ems="10"
                     android:layout_marginHorizontal="20sp"
                     android:drawableEnd="@drawable/eye_icon"
-                    android:id="@+id/password"/>
+                    android:id="@+id/password"
+            />
             <Button
                     android:text="Button"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/button"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"
                     android:layout_marginHorizontal="40sp"
                     android:layout_marginTop="20sp"
-                    android:backgroundTint="#bd4a48"/>
+                    android:backgroundTint="#bd4a48"
+            />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
