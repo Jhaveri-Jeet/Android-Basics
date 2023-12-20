@@ -30,18 +30,5 @@ This repository is designed to help beginners get started with Android app devel
 - **Sample Projects**: Dive into sample projects to see practical examples of Android app development with IntelliJ IDEA.
 
 - **Useful Resources**: Find links to external resources, documentation, and tools to assist you in your Android development journey.
-
-## Contribution
-
-We welcome contributions! If you have improvements, suggestions, or bug fixes, please open an issue or submit a pull request. Let's learn and grow together.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
+  
 Get started with Android app development today! Happy coding!
-```
-
-Please replace `"yourusername"` in the cloning instructions with your actual GitHub username or the URL of your repository. This README provides an overview of the repository, getting started instructions, and other relevant details to help users understand and utilize your Android development resources in IntelliJ IDEA.
